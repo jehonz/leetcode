@@ -15,7 +15,7 @@ package part0;
  * @author jehon
  *
  */
-public class Question2 {
+public class Question02 {
 	public static void main(String[] args) {
 		int[] nums1 = {2, 4, 3};
 		int[] nums2 = {5, 6, 4};

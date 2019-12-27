@@ -15,7 +15,7 @@ import java.util.Map;
  * @author jehon
  *
  */
-public class Question3 {
+public class Question03 {
 	
 	public static void main(String[] args) {
 		System.out.println(LengthOfLongestSubstring("abcabcbb"));
