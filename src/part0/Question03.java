@@ -4,13 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * ¸ø¶¨Ò»¸ö×Ö·û´®£¬ÇëÄãÕÒ³öÆäÖĞ²»º¬ÓĞÖØ¸´×Ö·ûµÄ ×î³¤×Ó´® µÄ³¤¶È
- * Ê¾Àı 1:
- * 	ÊäÈë: "abcabcbb"
- * Êä³ö: 3
- * ½âÊÍ: ÒòÎªÎŞÖØ¸´×Ö·ûµÄ×î³¤×Ó´®ÊÇ "abc"£¬ËùÒÔÆä³¤¶ÈÎª 3¡£
- * 
- * ÄÑ¶È£ºÖĞµÈ
  * 
  * @author jehon
  *
@@ -33,7 +26,7 @@ public class Question03 {
 		return ans;
 	}
 	
-	// leetcodeÌâ½â
+	// leetcodeï¿½ï¿½ï¿½
 	public int LengthOfLongestSubstring1(String s) {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>(); // current index of character
